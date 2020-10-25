@@ -1,0 +1,11 @@
+
+    <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
+        <exec executable="phpcb">
+            <arg value="--log" />
+            <arg path="${build-dir}/logs" />
+            <arg value="--source" />
+            <arg path="${src-dir}" />
+            <arg value="--output" />
+            <arg path="${build-dir}/code-browser" />
+        </exec>
+    </target>
