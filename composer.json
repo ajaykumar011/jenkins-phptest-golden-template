@@ -1,0 +1,14 @@
+{
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.6",
+        "pdepend/pdepend": "^2.5",
+        "vimeo/psalm": "^4.0"
+    }
+}
